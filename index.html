@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Romantic Landing Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff0f5;
+      text-align: center;
+      padding-bottom: 50px;
+    }
+
+    .ad-banner {
+      margin: 20px auto;
+      max-width: 728px;
+    }
+
+    .ad-banner img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .image-section {
+      position: relative;
+      margin: 30px auto;
+      max-width: 800px;
+    }
+
+    .image-section img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .overlay-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #fff;
+      font-size: 28px;
+      font-weight: bold;
+      text-shadow: 2px 2px 8px #000;
+      animation: fadeText 5s infinite;
+    }
+
+    @keyframes fadeText {
+      0% { opacity: 0; }
+      25% { opacity: 1; }
+      75% { opacity: 1; }
+      100% { opacity: 0; }
+    }
+
+    .cta-button {
+      margin-top: 40px;
+      display: inline-block;
+      padding: 15px 30px;
+      font-size: 22px;
+      background-color: #e60073;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background-color: #c3005f;
+    }
+
+    @media (max-width: 768px) {
+      .overlay-text {
+        font-size: 20px;
+      }
+      .cta-button {
+        font-size: 18px;
+        padding: 12px 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 🔝 Top Ad Image -->
+  <div class="ad-banner">
+    <img src="https://via.placeholder.com/728x90?text=Top+Ad+Banner" alt="Top Ad">
+  </div>
+
+  <!-- Image Section 1 -->
+  <div class="image-section">
+    <img src="https://images.pexels.com/photos/2169434/pexels-photo-2169434.jpeg" alt="Bikini Girl">
+    <div class="overlay-text">🔥 Chat with Hot Singles Now!</div>
+  </div>
+
+  <!-- Image Section 2 -->
+  <div class="image-section">
+    <img src="https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg" alt="Romantic Couple">
+    <div class="overlay-text">❤️ Find Your Perfect Match Today</div>
+  </div>
+
+  <!-- Image Section 3 -->
+  <div class="image-section">
+    <img src="https://images.pexels.com/photos/247291/pexels-photo-247291.jpeg" alt="Bikini Pose">
+    <div class="overlay-text">💋 Start Flirting Instantly!</div>
+  </div>
+
+  <!-- CTA Button -->
+  <a href="YOUR_ADSTERRA_LINK_HERE" class="cta-button" target="_blank">💘 Start Now – No Sign Up Needed!</a>
+
+  <!-- 🔻 Bottom Ad Image -->
+  <div class="ad-banner">
+    <img src="https://via.placeholder.com/728x90?text=Bottom+Ad+Banner" alt="Bottom Ad">
+  </div>
+
+</body>
+</html>
