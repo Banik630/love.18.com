@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dating Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .main-content {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .main-content h2 {
+            color: #333;
+        }
+        .cta-button {
+            background-color: #ff5733;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .cta-button:hover {
+            background-color: #ff4500;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Find Your Perfect Match</h1>
+    </header>
+    <div class="main-content">
+        <h2>Join our dating platform today</h2>
+        <p>Sign up now and meet amazing people from around the world!</p>
+        <a href="signup.html" class="cta-button">Get Started</a>
+    </div>
+    <footer>
+        <p>&copy; 2025 Your Dating Site. All rights reserved.</p>
+    </footer>
+</body>
+</html>
