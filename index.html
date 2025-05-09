@@ -8,7 +8,7 @@
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background-color: #fff0f5;
+      background: linear-gradient(135deg, #ff5f6d, #ffc3a0);
       text-align: center;
       padding-bottom: 50px;
     }
@@ -16,6 +16,7 @@
     .ad-banner {
       margin: 20px auto;
       max-width: 728px;
+      animation: slideAd 10s infinite alternate;
     }
 
     .ad-banner img {
@@ -25,10 +26,16 @@
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     }
 
+    @keyframes slideAd {
+      0% { transform: translateX(-100%); }
+      100% { transform: translateX(100%); }
+    }
+
     .image-section {
       position: relative;
       margin: 30px auto;
       max-width: 800px;
+      animation: fadeInOut 8s infinite;
     }
 
     .image-section img {
@@ -55,6 +62,12 @@
       25% { opacity: 1; }
       75% { opacity: 1; }
       100% { opacity: 0; }
+    }
+
+    @keyframes fadeInOut {
+      0% { opacity: 0.5; }
+      50% { opacity: 1; }
+      100% { opacity: 0.5; }
     }
 
     .cta-button {
